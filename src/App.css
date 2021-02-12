@@ -86,14 +86,12 @@ form{
   
 }
 
-<<<<<<< HEAD
 .meme-body{
   background-color:antiquewhite;
   margin:20px 0px;
 }
 
-=======
->>>>>>> ce7400072bdb39dc43ab3492e1004fac62d9510a
+
 .meme-name{
   font-weight: bold;
   font-size: 25px;
@@ -107,7 +105,7 @@ form{
   font-size: 15px;
   padding:0px 30px;
   border-left: 2px solid rgb(30, 255, 30) ;
-<<<<<<< HEAD
+
 }
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
@@ -132,6 +130,3 @@ form{
   border: 3px solid #f1f1f1;
   z-index: 9;
 } */
-=======
-}
->>>>>>> ce7400072bdb39dc43ab3492e1004fac62d9510a
