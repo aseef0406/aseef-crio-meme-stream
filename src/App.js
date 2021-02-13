@@ -16,12 +16,19 @@ class App extends Component{
     };
   }
   mySubmitHandler = (event) => {
+    
     event.preventDefault();
     let name=event.target.name.value;
     let caption=event.target.caption.value;
     let url=event.target.url.value;
     //alert(name);
     const meme = { name:name,caption:caption,url:url  };
+    axios.post('https://frozen-cliffs-77329.herokuapp.com/memes', meme)
+        .then(res=>{
+          console.log(res.data);
+        }
+    );
+    setTimeout(function(){console.log("Delay") }, 500);
     console.log(meme)
     axios.post('https://frozen-cliffs-77329.herokuapp.com/memes', meme)
         .then(res=>{
